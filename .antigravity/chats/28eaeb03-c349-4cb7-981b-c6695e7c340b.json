@@ -3,7 +3,7 @@
   "name": "Oi",
   "createdAt": "2026-11-06T23:09:12.626Z",
   "filename": "28eaeb03-c349-4cb7-981b-c6695e7c340b.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "bf4798e3-543e-47a0-9a79-ae0abbff5ce2",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-06T23:10:47.545Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "487b5514-d12a-44d7-90f0-015bff8ae93a",
+      "role": "agent",
+      "content": "Oi! Como posso ajudar você hoje?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "bf4798e3-543e-47a0-9a79-ae0abbff5ce2",
+      "created_at": "2026-11-06T23:10:54.964Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "728e40a6-80e8-4068-8ba6-d33cacfe893d",
+      "role": "user",
+      "content": "Onde estamos exatamente? Estou mexendo no Antigravity no computador também estou confuso",
+      "status": "pending",
+      "model": "gemini-4-argon-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-06T23:11:47.612Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "2bd6d26e-c8b9-46f1-83dc-03b966202443",
+      "role": "agent",
+      "content": "Aqui no aplicativo você está em um **ambiente na nuvem isolado**, separado do Antigravity que está rodando no seu computador:\n\n- **No seu computador:** o Antigravity trabalha diretamente nas pastas e arquivos locais da sua máquina.\n- **Aqui no app:** você tem um espaço de trabalho próprio na nuvem (que no momento está vazio, pronto para começarmos um projeto novo). Tudo o que criarmos aqui fica salvo automaticamente e você pode visualizar o site/projeto direto pelo app.\n- **Como conectar os dois:** se você quiser levar o que fizer aqui para o seu computador (ou vice-versa), basta tocar no **ícone do GitHub** no topo do chat para conectar um repositório — todo o histórico daqui vai para lá.\n\nQuer criar algum projeto novo por aqui ou prefere tirar alguma dúvida sobre como usar o Antigravity?",
+      "status": "completed",
+      "model": "gemini-4-argon-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "728e40a6-80e8-4068-8ba6-d33cacfe893d",
+      "created_at": "2026-11-06T23:12:05.479Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
